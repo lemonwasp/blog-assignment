@@ -30,12 +30,14 @@ cd backend
 bundle install
 rails db:create db:migrate db:seed
 rails s
+```
 
 ### 2️⃣ フロントエンド(Vue.js)の起動
 ```bash
 cd frontend
 npm install
 npm run dev
+```
 
 ---
 
