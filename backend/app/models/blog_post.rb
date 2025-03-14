@@ -5,6 +5,9 @@ class BlogPost < ApplicationRecord
 
   before_create :set_uuid  # user_id自動生成
 
+  validates :title, presence: true
+  validates :content, presence: true
+
   private
 
   def set_uuid

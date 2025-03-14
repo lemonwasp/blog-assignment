@@ -74,7 +74,7 @@ export default {
 
     const formatDate = (dateString) => {
       if (!dateString) return "日付なし";
-      return new Date(dateString).toLocaleDateString("ko-KR", {
+      return new Date(dateString).toLocaleDateString("ja-JP", {
         year: "numeric",
         month: "long",
         day: "numeric",

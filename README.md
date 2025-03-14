@@ -55,3 +55,22 @@ npm run dev
 ### 3️⃣ Bootstrapの導入によるUI改善
 - Bootstrap を活用して UI の統一感を向上
 - CSS メディアクエリと Bootstrap グリッドシステムを組み合わせ、スマホ対応を最適化
+
+---
+
+## ✅ 単体テスト実行方法
+### 1️⃣ モデルテスト(Model Test)
+モデルのバリデーションやロジックをテストします。
+```bash
+rspec spec/models
+```
+
+### 2️⃣ APIテスト(Request Test)
+APIエンドポイントが正しく動作するかをテストします。
+```bash
+rspec spec/requests
+```
+### 3️⃣ 全てのテストを一括実行
+```bash
+rspec
+```
